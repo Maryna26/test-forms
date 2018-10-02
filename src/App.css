@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+.hide-block{
+  display: none;
+}
+.input-form label{
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+}
+.input-form .form-control{
+  margin-top: 10px;
+  border-radius: 0;
+}
+.input-form .form-control:focus{
+  border: 2px solid #007c89;
+  box-shadow:none;
+}
+.input-form-btn{
+  width: 100%;
+  border-radius: 0;
+  background-color: #007c89;
+  color: #ffffff;
+}
+.input-form-btn:hover{
+  background: #014950f7;
+}
+.input-form-btn:disabled{
+  border: none;
+  background-color: #007c89;
+}

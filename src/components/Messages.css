@@ -1,0 +1,86 @@
+.error-message{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fbeeca;
+}
+.attention-img{
+    background: url("../images/attention.svg") no-repeat center;
+    background-size: 22px;
+    height: 29px;
+    width: 29px;
+}
+.message-text{
+    padding-left: 10px;
+}
+.message-text p{
+    margin-bottom: 3px;
+}
+.message-text p:first-child{
+    font-weight: 500;
+}
+.message-text p:nth-child(2){
+    font-size: 14px;
+}
+.failed-img{
+    background: url("../images/cancel.svg") no-repeat center;
+    background-size: 24px;
+    height: 29px;
+    width: 29px;
+}
+.failed-message{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fbcfbd;
+}
+.success-login-message{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 190px;
+    padding: 15px 20px 10px 10px;
+    background-color: #6de46d8f;
+}
+.success-login-message p{
+    padding-top: 3px;
+}
+.success-login-img{
+    background: url("../images/success.svg") no-repeat center;
+    background-size: 24px;
+    height: 29px;
+    width: 29px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .success-login-message{
+        margin: 200px auto;
+        width: 50%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .success-login-message{
+        margin: 190px 100px;
+    }
+}
+@media (max-width: 576px) {
+    .attention-img{
+        background-size: 18px;
+        height: 25px;
+        width: 30px;
+    }
+    .success-login-img{
+        background-size: 18px;
+    }
+    .success-login-message .message-text p:first-child{
+        font-size: 15px;
+    }
+    .register-form-block{
+        margin: 0 20px;
+    }
+
+}
